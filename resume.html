@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedar Sanjay Jasud - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .job, .education {
+            margin-bottom: 15px;
+        }
+        .job-title, .degree {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+        .company, .school {
+            font-style: italic;
+        }
+        .date {
+            color: #7f8c8d;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill-category {
+            width: 48%;
+            margin-right: 2%;
+        }
+        @media print {
+            body {
+                font-size: 12pt;
+                padding: 0;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KEDAR SANJAY JASUD</h1>
+        <div class="contact-info">
+            <span>Email: your.email@example.com | </span>
+            <span>Phone: (123) 456-7890 | </span>
+            <span>LinkedIn: linkedin.com/in/yourprofile | </span>
+            <span>Portfolio: yourportfolio.com</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>Passionate front-end developer with 3+ years of experience creating responsive and user-friendly web applications. Skilled in HTML, CSS, JavaScript, and modern frameworks like React and Vue.js. Strong focus on creating efficient, maintainable code and exceptional user experiences.</p>
+    </div>
+
+    <div class="section">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <strong>Front-end:</strong>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                    <li>React.js, Vue.js</li>
+                    <li>Responsive Web Design</li>
+                    <li>Bootstrap, Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <strong>Other:</strong>
+                <ul>
+                    <li>Git, GitHub</li>
+                    <li>RESTful APIs</li>
+                    <li>UI/UX Principles</li>
+                    <li>Agile Methodologies</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <div class="job">
+            <div class="job-title">
+                <span>Front-End Developer</span>
+                <span class="date">June 2021 - Present</span>
+            </div>
+            <div class="company">Tech Solutions Inc., Mumbai</div>
+            <ul>
+                <li>Developed and maintained responsive web applications using React.js, improving user engagement by 30%</li>
+                <li>Collaborated with UX designers to implement pixel-perfect interfaces from Figma designs</li>
+                <li>Optimized application performance, reducing load times by 40% through code splitting and lazy loading</li>
+                <li>Mentored 2 junior developers in JavaScript best practices and React patterns</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">
+                <span>Web Developer Intern</span>
+                <span class="date">Jan 2020 - May 2021</span>
+            </div>
+            <div class="company">Digital Creations, Pune</div>
+            <ul>
+                <li>Built 10+ responsive websites using HTML, CSS, and JavaScript for small business clients</li>
+                <li>Implemented accessibility features to ensure WCAG 2.1 compliance</li>
+                <li>Reduced CSS bundle size by 25% through optimization and removal of unused styles</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <div class="education">
+            <div class="degree">
+                <span>Bachelor of Science in Computer Science</span>
+                <span class="date">2017 - 2021</span>
+            </div>
+            <div class="school">University of Mumbai, Mumbai</div>
+            <ul>
+                <li>GPA: 3.8/4.0</li>
+                <li>Specialization in Web Technologies</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROJECTS</h2>
+        <div class="job">
+            <div class="job-title">E-Commerce Dashboard</div>
+            <ul>
+                <li>Built with React, Redux, and Firebase</li>
+                <li>Implemented real-time inventory tracking and sales analytics</li>
+                <li>Reduced API calls by 60% through smart caching strategies</li>
+            </ul>
+        </div>
+        <div class="job">
+            <div class="job-title">Portfolio Website</div>
+            <ul>
+                <li>Developed with Vue.js and GSAP animations</li>
+                <li>Optimized for performance (95+ Lighthouse score)</li>
+                <li>Implemented dark/light mode toggle</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="no-print" style="text-align: center; margin-top: 30px;">
+        <button onclick="window.print()">Print/Save as PDF</button>
+    </div>
+</body>
+</html>
